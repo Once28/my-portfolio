@@ -13,7 +13,7 @@ export default function Story() {
         <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8">
           <h1 className="text-4xl font-bold mb-4">HI, I'M JUSTIN.</h1>
           <p className="text-lg text-gray-700 mb-4">
-            I'm a New York-based software developer and data scientist. My mission is to create innovative solutions that drive business growth and solve real-world problems.
+            I'm a Seattle/New York-based software developer and data scientist. My mission is to create innovative solutions that drive business growth and solve real-world problems.
           </p>
           <p className="text-lg text-gray-700 mb-4">
             Currently, I'm pursuing a Master's in Data Science at Columbia University. Previously, I graduated from the University of Washington with a background in software development and data science. My work has involved leveraging machine learning algorithms, data analysis, and programming to tackle complex challenges.

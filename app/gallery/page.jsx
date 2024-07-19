@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from '../../data/projects';
-import Tags from '../../components/tags';
+import Tags from '../../components/Tags';
 
 const Gallery = () => {
     return (

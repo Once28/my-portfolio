@@ -16,7 +16,14 @@ const Navbar = () => {
         </div>
         <div className="flex space-x-6 items-center">
           <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
-          <Link href="/resume" className="text-gray-700 hover:text-gray-900">Resume</Link>
+          <a
+                        href="https://drive.google.com/file/d/1Zit-dONQCOlMkClJwJfSSupxi2iaNOLv/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-700 hover:text-gray-900"
+                    >
+                        Resume
+                    </a>
           <Link href="/story" className="text-gray-700 hover:text-gray-900">My Story</Link>
           <Link href="/gallery" className="text-gray-700 hover:text-gray-900">Gallery</Link>
           {/* <Link href="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link> */}
