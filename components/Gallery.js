@@ -1,10 +1,9 @@
 const projects = [
-    { id: 1, title: 'Project 1', image: '/project1.jpg', tags: ['Web Development', 'JavaScript'] },
-    { id: 2, title: 'Project 2', image: '/project2.jpg', tags: ['Data Science', 'Python'] },
-    { id: 3, title: 'Project 3', image: '/project3.jpg', tags: ['Machine Learning', 'Python'] },
-    // Add more projects as needed
-  ];
-  
+  { id: 1, title: 'Project 1', image: '/logo.png', tags: ['Web Development', 'JavaScript'] },
+  { id: 2, title: 'Project 2', image: '/pantry-pals.png', tags: ['Data Science', 'Python'] },
+  { id: 3, title: 'Project 3', image: '/source.jpg', tags: ['Machine Learning', 'Python'] },
+  // Add more projects as needed
+];
   const Gallery = () => {
     return (
       <div className="container mx-auto py-8">
