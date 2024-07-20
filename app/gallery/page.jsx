@@ -4,7 +4,7 @@ import Tags from '../../components/Tags';
 
 const Gallery = () => {
     return (
-      <div className="container mx-auto py-8">
+      <div className="container mx-auto py-8 px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {projects.map((project) => (
             <a key={project.id} href={project.link} target="_blank" rel="noopener noreferrer" className="relative block">

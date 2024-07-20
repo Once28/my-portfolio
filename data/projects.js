@@ -69,7 +69,7 @@ const projects = [
     image: '/reflection pic.jpg', 
     tags: ['JavaScript', 'React', 'Next.js', 'Web Development'], 
     description: 'This website you are looking at! A showcase of my work, projects, and skills, built with React and Next.js for dynamic user experience.', 
-    link: 'https://justin-zeng.vercel.app/'
+    link: 'https://github.com/Once28/my-portfolio'
   },
   { 
     id: 10, 

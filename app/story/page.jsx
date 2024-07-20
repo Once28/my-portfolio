@@ -6,11 +6,11 @@ import profilePic from '../../public/IMG_0335.jpg';
 export default function Story() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center">
-      <div className="container mx-auto py-8 flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start">
+      <div className="container mx-auto py-8 flex flex-col md:flex-row items-center px-8 ">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-center">
           <Image src={profilePic} alt="Justin Zeng" className="rounded-lg shadow-lg" width={400} height={400} />
         </div>
-        <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8">
+        <div className="w-full md:w-1/2 mt-4 md:mt-0 md:ml-4">
           <h1 className="text-4xl font-bold mb-4">HI, I'M JUSTIN.</h1>
           <p className="text-lg text-gray-700 mb-4">
             I'm a Seattle/New York-based software developer and data scientist. My mission is to create innovative solutions that drive business growth and solve real-world problems.

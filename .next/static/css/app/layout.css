@@ -897,11 +897,11 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mt-8 {
-  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -988,6 +988,11 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1109,6 +1114,10 @@ video {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1124,6 +1133,10 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .py-8 {
   padding-top: 2rem;
@@ -1279,8 +1292,8 @@ video {
 } 
 @media (min-width: 768px) {
 
-  .md\:ml-8 {
-    margin-left: 2rem;
+  .md\:ml-4 {
+    margin-left: 1rem;
   }
 
   .md\:mt-0 {
@@ -1311,8 +1324,8 @@ video {
     flex-direction: row-reverse;
   }
 
-  .md\:justify-start {
-    justify-content: flex-start;
+  .md\:justify-center {
+    justify-content: center;
   }
 } 
 @media (min-width: 1024px) {

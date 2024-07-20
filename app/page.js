@@ -7,11 +7,13 @@ import Contact from '../components/Contact';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 ">
       <WelcomeBlock />
-      <Highlights />
-      <Recommendations />
-      <Contact />
+      <div className=' container mx-auto space-y-8 px-8 py-4'>
+        <Highlights />
+        <Recommendations />
+        <Contact />
+      </div>
     </div>
   );
 }
