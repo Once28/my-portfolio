@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex space-x-6 items-center">
           <Link href="/" className="text-gray-700 hover:text-gray-900">Home</Link>
           <a
-                        href="https://drive.google.com/file/d/1Zit-dONQCOlMkClJwJfSSupxi2iaNOLv/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1ldlX-bLhX0BuzeZbHh6bkO91K8KJwmO3/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-700 hover:text-gray-900"
