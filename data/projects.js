@@ -43,7 +43,7 @@ const projects = [
     id: 6, 
     title: 'Full Stack Dev', 
     image: '/take less waste less figma.png', 
-    tags: ['Full Stack Development', 'Product Management', 'Product Design', 'UX Research', 'Web App'], 
+    tags: ['Full Stack Development', 'Product Management', 'Product Design', 'UX Research'], 
     description: 'A product design aimed to reduce food waste in local school districts through a gamified reward system. Take Less Waste Less brought to life through React and Firebase resulting in a highly functional and dynamic web application that offers a smooth user experience.', 
     link: 'https://take-less-waste-less.web.app/Home'
   },
@@ -51,7 +51,7 @@ const projects = [
     id: 7, 
     title: 'Image Recognition Neural Network', 
     image: '/cse416 hw8.png', 
-    tags: ['Python', 'PyTorch', 'TensorFlow', 'Deep Learning', 'Computer Vision'], 
+    tags: ['PyTorch', 'TensorFlow', 'Deep Learning', 'Computer Vision'], 
     description: 'Developed and fine-tuned a deep learning model using PyTorch and TensorFlow to achieve high accuracy in recognizing colored 32x32 images. This project involved extensive experimentation with different neural network architectures to optimize performance and demonstrated proficiency in advanced computer vision techniques.', 
     link: 'https://github.com/Once28/CSE416-HW8-Deep-Learning-with-Pytorch'
   },
@@ -107,8 +107,8 @@ const projects = [
     id: 14, 
     title: 'VGG16-LoRA-Brain-Tumor-Classifier', 
     image: '/VGG16_brain_tumours.jpg', 
-    tags: ['Research', 'Computer Vision', 'Convolutional Neural Networks', 'LoRA'], 
-    description: 'This research project explores the implementation of VGG16 neural network architecture enhanced with Low-Rank Adaptation (LoRA) for accurate brain tumor classification from MRI images.Check out our research paper to learn more about how we integrated LoRA\'s parameter-efficient fine-tuning approach with VGG16 to advance automated medical image analysis.', 
+    tags: ['Research', 'Computer Vision', 'Convolutional Neural Networks', 'Medical Analysis'], 
+    description: 'This research project explores the implementation of VGG16 neural network architecture enhanced with Low-Rank Adaptation (LoRA) for accurate brain tumor classification from MRI images. Check out our research paper to learn more about how we integrated LoRA\'s parameter-efficient fine-tuning approach with VGG16 to advance automated medical image analysis.', 
     link: 'https://github.com/Once28/VGG16-LoRA-Brain-Tumor-Classifier/tree/main'
   }
 ];
