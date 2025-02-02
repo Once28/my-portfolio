@@ -102,6 +102,14 @@ const projects = [
     tags: ['Python', 'Machine Learning', 'Data Cleaning'], 
     description: 'Built a predictive model for interest rates using Linear Regression, Random Forest, and XGBoost. Enhanced predictive power through feature engineering and hyperparameter tuning. Achieved high accuracy in forecasts with cross-validation. Visualized predictions and trends using matplotlib and seaborn. Documented the workflow for reproducibility and transparency.', 
     link: 'https://github.com/Once28/InterestRatePredictors'
+  },
+  { 
+    id: 14, 
+    title: 'VGG16-LoRA-Brain-Tumor-Classifier', 
+    image: '/VGG16_brain_tumours.jpg', 
+    tags: ['Research', 'Computer Vision', 'Convolutional Neural Networks', 'LoRA'], 
+    description: 'This research project explores the implementation of VGG16 neural network architecture enhanced with Low-Rank Adaptation (LoRA) for accurate brain tumor classification from MRI images.Check out our research paper to learn more about how we integrated LoRA\'s parameter-efficient fine-tuning approach with VGG16 to advance automated medical image analysis.', 
+    link: 'https://github.com/Once28/VGG16-LoRA-Brain-Tumor-Classifier/tree/main'
   }
 ];
 
