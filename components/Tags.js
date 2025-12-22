@@ -41,14 +41,60 @@ const tagColors = {
   'Business Intelligence': 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border-emerald-500/30',
 };
 
-const Tags = ({ tags }) => {
+// Light variant for dark backgrounds
+const tagColorsLight = {
+  'Backend Development': 'bg-blue-400/30 text-blue-100 border-blue-400/50',
+  'JavaScript': 'bg-yellow-400/30 text-yellow-100 border-yellow-400/50',
+  'Data Science': 'bg-green-400/30 text-green-100 border-green-400/50',
+  'Python': 'bg-indigo-400/30 text-indigo-100 border-indigo-400/50',
+  'Software Architecture': 'bg-red-400/30 text-red-100 border-red-400/50',
+  'Machine Learning': 'bg-purple-400/30 text-purple-100 border-purple-400/50',
+  'Database Management': 'bg-orange-400/30 text-orange-100 border-orange-400/50',
+  'Product Design': 'bg-pink-400/30 text-pink-100 border-pink-400/50',
+  'UX Research': 'bg-teal-400/30 text-teal-100 border-teal-400/50',
+  'Web App': 'bg-gray-400/30 text-gray-100 border-gray-400/50',
+  'Real-time Communication': 'bg-cyan-400/30 text-cyan-100 border-cyan-400/50',
+  'Food Waste Reduction': 'bg-lime-400/30 text-lime-100 border-lime-400/50',
+  'Code Optimization': 'bg-rose-400/30 text-rose-100 border-rose-400/50',
+  'Social Media Analysis': 'bg-violet-400/30 text-violet-100 border-violet-400/50',
+  'Travel Industry': 'bg-amber-400/30 text-amber-100 border-amber-400/50',
+  'Full Stack Development': 'bg-fuchsia-400/30 text-fuchsia-100 border-fuchsia-400/50',
+  'Product Management': 'bg-emerald-400/30 text-emerald-100 border-emerald-400/50',
+  'Deep Learning': 'bg-sky-400/30 text-sky-100 border-sky-400/50',
+  'Computer Vision': 'bg-stone-400/30 text-stone-100 border-stone-400/50',
+  'AI': 'bg-amber-400/30 text-amber-100 border-amber-400/50',
+  'Game Development': 'bg-red-400/30 text-red-100 border-red-400/50',
+  'Algorithm Optimization': 'bg-blue-400/30 text-blue-100 border-blue-400/50',
+  'Pathfinding': 'bg-green-400/30 text-green-100 border-green-400/50',
+  'Graph Algorithms': 'bg-orange-400/30 text-orange-100 border-orange-400/50',
+  'Time Series Analysis': 'bg-purple-400/30 text-purple-100 border-purple-400/50',
+  'Stock Market': 'bg-pink-400/30 text-pink-100 border-pink-400/50',
+  'Java': 'bg-red-400/30 text-red-100 border-red-400/50',
+  'PyTorch': 'bg-blue-400/30 text-blue-100 border-blue-400/50',
+  'TensorFlow': 'bg-green-400/30 text-green-100 border-green-400/50',
+  'Keras': 'bg-purple-400/30 text-purple-100 border-purple-400/50',
+  'React': 'bg-indigo-400/30 text-indigo-100 border-indigo-400/50',
+  'Next.js': 'bg-gray-400/30 text-gray-100 border-gray-400/50',
+  'Research': 'bg-yellow-400/30 text-yellow-100 border-yellow-400/50',
+  'Convolutional Neural Networks': 'bg-teal-400/30 text-teal-100 border-teal-400/50',
+  'LoRA': 'bg-rose-400/30 text-rose-100 border-rose-400/50',
+  'Medical Analysis': 'bg-cyan-400/30 text-cyan-100 border-cyan-400/50',
+  'NLP': 'bg-violet-400/30 text-violet-100 border-violet-400/50',
+  'Business Intelligence': 'bg-emerald-400/30 text-emerald-100 border-emerald-400/50',
+};
+
+const Tags = ({ tags, light = false }) => {
+  const colorMap = light ? tagColorsLight : tagColors;
+  
   return (
     <div className="flex flex-wrap gap-2">
       {tags.map((tag, index) => (
         <span
           key={index}
           className={`inline-block text-xs px-3 py-1.5 rounded-full font-medium border transition-all hover:scale-105 ${
-            tagColors[tag] || 'bg-gray-500/20 text-gray-700 dark:text-gray-300 border-gray-500/30'
+            colorMap[tag] || (light 
+              ? 'bg-gray-400/30 text-gray-100 border-gray-400/50' 
+              : 'bg-gray-500/20 text-gray-700 dark:text-gray-300 border-gray-500/30')
           }`}
         >
           {tag}

@@ -38,7 +38,7 @@ const Carousel = () => {
               <div className="glass-dark rounded-2xl p-6 md:p-8 max-w-3xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">{project.title}</h2>
                 <div className="mb-4">
-                  <Tags tags={project.tags} />
+                  <Tags tags={project.tags} light={true} />
                 </div>
                 <a 
                   href={project.link}

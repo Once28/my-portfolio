@@ -132,7 +132,7 @@ const projects = [
     title: 'Detecting Financial Fraud via NLP in Transactions and Loan Applications', 
     image: '/detecting-financial-fraud-using-nlp.png', 
     tags: ['NLP', 'Machine Learning', 'Business Intelligence'], 
-    description: 'This research project explores the implementation of VGG16 neural network architecture enhanced with Low-Rank Adaptation (LoRA) for accurate brain tumor classification from MRI images. Check out our research paper to learn more about how we integrated LoRA\'s parameter-efficient fine-tuning approach with VGG16 to advance automated medical image analysis.', 
+    description: 'We explored several NLP methods to capture different dimensions of fraudulent messages. Our models include a TF-IDF + Logistic Regression for fraud and fraud-type classification, a BERT-embedding + XGBoost pipeline for deeper contextual modeling, DistilBERT sentiment features with a Random Forest to analyze emotional tone, and Named Entity Recognition to extract key semantic cues. Since the dataset was highly imbalanced, we also applied SMOTE on the training set to address class imbalance and improve minority-class learning. Together, these approaches provide complementary insights that power our dashboard’s fraud-pattern analytics.', 
     link: 'https://github.com/pranavbidve/Detecting-Financial-Fraud-via-NLP-in-Transactions-and-Loan-Applications'
   }
 ];
