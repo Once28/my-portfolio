@@ -1,51 +1,55 @@
 import React from 'react';
 
 const tagColors = {
-  'Backend Development': 'bg-blue-200 text-blue-800',
-  'JavaScript': 'bg-yellow-200 text-yellow-800',
-  'Data Science': 'bg-green-200 text-green-800',
-  'Python': 'bg-indigo-200 text-indigo-800',
-  'Software Architecture': 'bg-red-200 text-red-800',
-  'Machine Learning': 'bg-purple-200 text-purple-800',
-  'Database Management': 'bg-orange-200 text-orange-800',
-  'Product Design': 'bg-pink-200 text-pink-800',
-  'UX Research': 'bg-teal-200 text-teal-800',
-  'Web App': 'bg-gray-200 text-gray-800',
-  'Real-time Communication': 'bg-cyan-200 text-cyan-800',
-  'Food Waste Reduction': 'bg-lime-200 text-lime-800',
-  'Code Optimization': 'bg-rose-200 text-rose-800',
-  'Social Media Analysis': 'bg-violet-200 text-violet-800',
-  'Travel Industry': 'bg-amber-200 text-amber-800',
-  'Full Stack Development': 'bg-fuchsia-200 text-fuchsia-800',
-  'Product Management': 'bg-emerald-200 text-emerald-800',
-  'Deep Learning': 'bg-sky-200 text-sky-800',
-  'Computer Vision': 'bg-stone-200 text-stone-800',
-  'AI': 'bg-amber-300 text-amber-900',
-  'Game Development': 'bg-red-300 text-red-900',
-  'Algorithm Optimization': 'bg-blue-300 text-blue-900',
-  'Pathfinding': 'bg-green-300 text-green-900',
-  'Graph Algorithms': 'bg-orange-300 text-orange-900',
-  'Time Series Analysis': 'bg-purple-300 text-purple-900',
-  'Stock Market': 'bg-pink-300 text-pink-900',
-  'Java': 'bg-red-400 text-red-900',
-  'PyTorch': 'bg-blue-400 text-blue-900',
-  'TensorFlow': 'bg-green-400 text-green-900',
-  'Keras': 'bg-purple-400 text-purple-900',
-  'React': 'bg-indigo-400 text-indigo-900',
-  'Next.js': 'bg-gray-400 text-gray-900',
-  'Research': 'bg-yellow-400 text-yellow-900',
-  'Convolutional Neural Networks': 'bg-teal-400 text-teal-900',
-  'LoRA': 'bg-rose-400 text-rose-900',
-  'Medical Analysis': 'bg-cyan-400 text-cyan-900',
+  'Backend Development': 'bg-blue-500/20 text-blue-700 dark:text-blue-300 border-blue-500/30',
+  'JavaScript': 'bg-yellow-500/20 text-yellow-700 dark:text-yellow-300 border-yellow-500/30',
+  'Data Science': 'bg-green-500/20 text-green-700 dark:text-green-300 border-green-500/30',
+  'Python': 'bg-indigo-500/20 text-indigo-700 dark:text-indigo-300 border-indigo-500/30',
+  'Software Architecture': 'bg-red-500/20 text-red-700 dark:text-red-300 border-red-500/30',
+  'Machine Learning': 'bg-purple-500/20 text-purple-700 dark:text-purple-300 border-purple-500/30',
+  'Database Management': 'bg-orange-500/20 text-orange-700 dark:text-orange-300 border-orange-500/30',
+  'Product Design': 'bg-pink-500/20 text-pink-700 dark:text-pink-300 border-pink-500/30',
+  'UX Research': 'bg-teal-500/20 text-teal-700 dark:text-teal-300 border-teal-500/30',
+  'Web App': 'bg-gray-500/20 text-gray-700 dark:text-gray-300 border-gray-500/30',
+  'Real-time Communication': 'bg-cyan-500/20 text-cyan-700 dark:text-cyan-300 border-cyan-500/30',
+  'Food Waste Reduction': 'bg-lime-500/20 text-lime-700 dark:text-lime-300 border-lime-500/30',
+  'Code Optimization': 'bg-rose-500/20 text-rose-700 dark:text-rose-300 border-rose-500/30',
+  'Social Media Analysis': 'bg-violet-500/20 text-violet-700 dark:text-violet-300 border-violet-500/30',
+  'Travel Industry': 'bg-amber-500/20 text-amber-700 dark:text-amber-300 border-amber-500/30',
+  'Full Stack Development': 'bg-fuchsia-500/20 text-fuchsia-700 dark:text-fuchsia-300 border-fuchsia-500/30',
+  'Product Management': 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border-emerald-500/30',
+  'Deep Learning': 'bg-sky-500/20 text-sky-700 dark:text-sky-300 border-sky-500/30',
+  'Computer Vision': 'bg-stone-500/20 text-stone-700 dark:text-stone-300 border-stone-500/30',
+  'AI': 'bg-amber-500/20 text-amber-700 dark:text-amber-300 border-amber-500/30',
+  'Game Development': 'bg-red-500/20 text-red-700 dark:text-red-300 border-red-500/30',
+  'Algorithm Optimization': 'bg-blue-500/20 text-blue-700 dark:text-blue-300 border-blue-500/30',
+  'Pathfinding': 'bg-green-500/20 text-green-700 dark:text-green-300 border-green-500/30',
+  'Graph Algorithms': 'bg-orange-500/20 text-orange-700 dark:text-orange-300 border-orange-500/30',
+  'Time Series Analysis': 'bg-purple-500/20 text-purple-700 dark:text-purple-300 border-purple-500/30',
+  'Stock Market': 'bg-pink-500/20 text-pink-700 dark:text-pink-300 border-pink-500/30',
+  'Java': 'bg-red-500/20 text-red-700 dark:text-red-300 border-red-500/30',
+  'PyTorch': 'bg-blue-500/20 text-blue-700 dark:text-blue-300 border-blue-500/30',
+  'TensorFlow': 'bg-green-500/20 text-green-700 dark:text-green-300 border-green-500/30',
+  'Keras': 'bg-purple-500/20 text-purple-700 dark:text-purple-300 border-purple-500/30',
+  'React': 'bg-indigo-500/20 text-indigo-700 dark:text-indigo-300 border-indigo-500/30',
+  'Next.js': 'bg-gray-500/20 text-gray-700 dark:text-gray-300 border-gray-500/30',
+  'Research': 'bg-yellow-500/20 text-yellow-700 dark:text-yellow-300 border-yellow-500/30',
+  'Convolutional Neural Networks': 'bg-teal-500/20 text-teal-700 dark:text-teal-300 border-teal-500/30',
+  'LoRA': 'bg-rose-500/20 text-rose-700 dark:text-rose-300 border-rose-500/30',
+  'Medical Analysis': 'bg-cyan-500/20 text-cyan-700 dark:text-cyan-300 border-cyan-500/30',
+  'NLP': 'bg-violet-500/20 text-violet-700 dark:text-violet-300 border-violet-500/30',
+  'Business Intelligence': 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border-emerald-500/30',
 };
 
 const Tags = ({ tags }) => {
   return (
-    <div className="flex space-x-2">
+    <div className="flex flex-wrap gap-2">
       {tags.map((tag, index) => (
         <span
           key={index}
-          className={`inline-block text-xs px-2 py-1 rounded-full ${tagColors[tag] || 'bg-gray-200 text-gray-800'}`}
+          className={`inline-block text-xs px-3 py-1.5 rounded-full font-medium border transition-all hover:scale-105 ${
+            tagColors[tag] || 'bg-gray-500/20 text-gray-700 dark:text-gray-300 border-gray-500/30'
+          }`}
         >
           {tag}
         </span>
