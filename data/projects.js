@@ -105,11 +105,35 @@ const projects = [
   },
   { 
     id: 14, 
-    title: 'VGG16-LoRA-Brain-Tumor-Classifier', 
+    title: 'VGG16 LoRA Brain Tumor Classifier', 
     image: '/VGG16_brain_tumours.jpg', 
     tags: ['Research', 'Computer Vision', 'Convolutional Neural Networks', 'Medical Analysis'], 
     description: 'This research project explores the implementation of VGG16 neural network architecture enhanced with Low-Rank Adaptation (LoRA) for accurate brain tumor classification from MRI images. Check out our research paper to learn more about how we integrated LoRA\'s parameter-efficient fine-tuning approach with VGG16 to advance automated medical image analysis.', 
     link: 'https://github.com/Once28/VGG16-LoRA-Brain-Tumor-Classifier/tree/main'
+  },
+  { 
+    id: 15, 
+    title: 'Personal Identification Based on Iris Texture Analysis Implementation', 
+    image: '/cv-iris-detection.png', 
+    tags: ['Research', 'Computer Vision', 'Convolutional Neural Networks'], 
+    description: 'The system processes each iris image through sequential modules that replicate the stages described in the paper Personal Identification Based on Iris Texture Analysis (Ma et al., 2003).', 
+    link: 'https://github.com/amayakejriwal/cv-iris-detection'
+  },
+  { 
+    id: 16, 
+    title: 'CNN classifier for Street View House Numbers (SVHN)', 
+    image: '/Conv-Layer-3-Feature-Maps.png', 
+    tags: ['Computer Vision', 'Convolutional Neural Networks'], 
+    description: 'The goal of this project is to implement a Convolutional Neural Network (CNN) to classify digits (0–9) from the Street View House Numbers (SVHN) dataset. SVHN incorporates an order of magnitude more labeled data (over 600,000 digit images) than MNIST and comes from a significantly harder, unsolved, real world problem (recognizing digits and numbers in natural scene images) obtained from Google Street View images. The model is implemented using PyTorch and trained on the Format 2 (Cropped Digits) dataset (train_32x32.mat, test_32x32.mat). The final model achieves a test accuracy of >91%.',
+    link: 'https://github.com/Once28/CNN-classifier-for-Street-View-House-Numbers-SVHN'
+  },
+  { 
+    id: 16, 
+    title: 'Detecting Financial Fraud via NLP in Transactions and Loan Applications', 
+    image: '/detecting-financial-fraud-using-nlp.png', 
+    tags: ['NLP', 'Machine Learning', 'Business Intelligence'], 
+    description: 'This research project explores the implementation of VGG16 neural network architecture enhanced with Low-Rank Adaptation (LoRA) for accurate brain tumor classification from MRI images. Check out our research paper to learn more about how we integrated LoRA\'s parameter-efficient fine-tuning approach with VGG16 to advance automated medical image analysis.', 
+    link: 'https://github.com/pranavbidve/Detecting-Financial-Fraud-via-NLP-in-Transactions-and-Loan-Applications'
   }
 ];
 
