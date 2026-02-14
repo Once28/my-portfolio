@@ -55,7 +55,7 @@ const About = () => {
     },
     { 
       category: 'Cloud', 
-      items: ['AWS', 'GCP', 'Azure'],
+      items: ['AWS', 'GCP', 'Azure', 'Firebase', 'Docker'],
       icon: Cloud
     },
     { 
@@ -65,7 +65,7 @@ const About = () => {
     },
     { 
       category: 'Tools', 
-      items: ['Git', 'MLflow', 'Postman'],
+      items: ['Git', 'Haystack', 'Postman'],
       icon: GitBranch
     },
   ];
@@ -100,7 +100,7 @@ const About = () => {
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-card">
                 <img 
-                  src="/workspace.jpg" 
+                  src="/IMG_0335.jpg" 
                   alt="Justin at work"
                   className="w-full h-auto object-cover"
                 />

@@ -158,7 +158,7 @@ const Hero = () => {
                   src="/profile.jpg" 
                   alt="Justin Zeng"
                   className="w-full h-full object-cover"
-                  style={{ objectPosition: 'center 35%' }}
+                  style={{ objectPosition: 'center 50%' }}
                 />
               </div>
 
