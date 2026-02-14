@@ -87,7 +87,7 @@ const About = () => {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             <span className="text-gradient">Hi!</span> Nice to meet you.
-            <span className="text-gradient">I'm Justin</span>
+            <span className="text-gradient"> I'm Justin</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-blue-600 mx-auto rounded-full" />
         </div>
