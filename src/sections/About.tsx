@@ -100,7 +100,7 @@ const About = () => {
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-card">
                 <img 
-                  src="/workspace.jpg" 
+                  src="/workplace.jpg" 
                   alt="Justin at work"
                   className="w-full h-auto object-cover"
                 />
