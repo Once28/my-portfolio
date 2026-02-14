@@ -15,7 +15,7 @@ const recommendations: Recommendation[] = [
     title: 'Team Player',
     text: 'Justin is a team player who believes over-communication is better than less communication. He plays to his strengths and is an asset to his future teams.',
     author: 'Probudhho Chakraborty',
-    company: 'Amazon Web Services'
+    company: 'AWS'
   },
   {
     id: 2,
@@ -24,13 +24,13 @@ const recommendations: Recommendation[] = [
     author: 'Bhav Ashok',
     company: 'Google'
   },
-  // {
-  //   id: 3,
-  //   title: 'Technical Excellence',
-  //   text: "Justin's ability to translate complex data into actionable insights is remarkable. His machine learning models consistently exceeded our performance expectations. He has a unique combination of technical depth and communication skills.",
-  //   author: 'Sarah Chen',
-  //   company: 'Data Science Lead'
-  // },
+  {
+    id: 3,
+    title: 'Technical Excellence',
+    text: "Justin's ability to translate complex data into actionable insights is remarkable. His machine learning models consistently exceeded our performance expectations. He has a unique combination of technical depth and communication skills.",
+    author: 'Paul Garcia',
+    company: 'Columbia University Irving Medical Center'
+  },
 ];
 
 const Recommendations = () => {
@@ -118,7 +118,7 @@ const Recommendations = () => {
         {/* Section Header */}
         <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <span className="inline-block px-4 py-1.5 glass rounded-full text-sm text-blue-400 mb-4">
-            Testimonials
+            Recommendations
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             What People <span className="text-gradient">Say</span>
