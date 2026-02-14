@@ -24,13 +24,13 @@ const recommendations: Recommendation[] = [
     author: 'Bhav Ashok',
     company: 'Google'
   },
-  {
-    id: 3,
-    title: 'Technical Excellence',
-    text: "Justin's ability to translate complex data into actionable insights is remarkable. His machine learning models consistently exceeded our performance expectations. He has a unique combination of technical depth and communication skills.",
-    author: 'Sarah Chen',
-    company: 'Data Science Lead'
-  },
+  // {
+  //   id: 3,
+  //   title: 'Technical Excellence',
+  //   text: "Justin's ability to translate complex data into actionable insights is remarkable. His machine learning models consistently exceeded our performance expectations. He has a unique combination of technical depth and communication skills.",
+  //   author: 'Sarah Chen',
+  //   company: 'Data Science Lead'
+  // },
 ];
 
 const Recommendations = () => {

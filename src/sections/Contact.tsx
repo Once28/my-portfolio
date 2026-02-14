@@ -66,8 +66,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'justinzeng007@gmail.com',
-      href: 'mailto:justinzeng007@gmail.com'
+      value: 'jz3886@columbia.edu',
+      href: 'mailto:jz3886@columbia.edu'
     },
     {
       icon: Linkedin,

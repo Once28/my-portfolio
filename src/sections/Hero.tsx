@@ -158,6 +158,7 @@ const Hero = () => {
                   src="/profile.jpg" 
                   alt="Justin Zeng"
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: 'center 35%' }}
                 />
               </div>
 
@@ -166,15 +167,15 @@ const Hero = () => {
                 className="absolute -bottom-4 -left-4 glass px-4 py-3 rounded-xl animate-float"
                 style={{ animationDelay: '1s' }}
               >
-                <div className="text-2xl font-bold text-blue-400">5+</div>
-                <div className="text-xs text-text-secondary">Years Exp.</div>
+                <div className="text-2xl font-bold text-blue-400">3+</div>
+                <div className="text-xs text-text-secondary">AI Internship Exp.</div>
               </div>
 
               <div 
                 className="absolute -top-4 -right-4 glass px-4 py-3 rounded-xl animate-float"
                 style={{ animationDelay: '0.5s' }}
               >
-                <div className="text-2xl font-bold text-blue-400">50+</div>
+                <div className="text-2xl font-bold text-blue-400">25+</div>
                 <div className="text-xs text-text-secondary">Projects</div>
               </div>
             </div>

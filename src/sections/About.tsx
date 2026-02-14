@@ -32,8 +32,9 @@ const About = () => {
   }, []);
 
   const stats = [
-    { value: '50+', label: 'Projects Completed' },
-    { value: '15+', label: 'ML Models Deployed' },
+    { value: '3+', label: 'Industry Software & AI Internships' },
+    { value: '25+', label: 'Hackathons & Projects Completed' },
+    { value: '10+', label: 'ML Models Deployed' },
   ];
 
   const skills = [
@@ -44,17 +45,17 @@ const About = () => {
     },
     { 
       category: 'ML/AI', 
-      items: ['LangChain', 'PyTorch', 'Scikit-learn', 'NLP', 'RAG'],
+      items: ['LangChain', 'PyTorch', 'Scikit-learn', 'NLP', 'Computer Vision', 'LLMs'],
       icon: Brain
     },
     { 
       category: 'Data', 
-      items: ['Pandas', 'NumPy', 'Spark', 'Hadoop', 'ETL Pipelines'],
+      items: ['Pandas', 'NumPy', 'Hadoop', 'ETL Pipelines', 'Data Cleaning'],
       icon: Database
     },
     { 
       category: 'Cloud', 
-      items: ['AWS', 'GCP', 'Azure', 'Docker', 'Kubernetes'],
+      items: ['AWS', 'GCP', 'Azure'],
       icon: Cloud
     },
     { 
@@ -64,7 +65,7 @@ const About = () => {
     },
     { 
       category: 'Tools', 
-      items: ['Git', 'MLflow', 'Airflow', 'Jenkins', 'Linux'],
+      items: ['Git', 'MLflow', 'Postman'],
       icon: GitBranch
     },
   ];
