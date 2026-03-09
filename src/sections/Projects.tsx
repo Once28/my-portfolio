@@ -109,11 +109,11 @@ const projects: Project[] = [
   },
   { 
     id: 13, 
-    title: 'Interest Rate Predictor', 
+    title: 'DeepRate:Interest Rate Predictor', 
     image: '/interest rate prediction.png', 
-    tags: ['Python', 'Machine Learning', 'Data Cleaning'], 
-    description: 'Built a predictive model for interest rates using Linear Regression, Random Forest, and XGBoost. Enhanced predictive power through feature engineering and hyperparameter tuning. Achieved high accuracy in forecasts with cross-validation. Visualized predictions and trends using matplotlib and seaborn. Documented the workflow for reproducibility and transparency.', 
-    link: 'https://github.com/Once28/InterestRatePredictors'
+    tags: ['Python', 'Machine Learning', 'Business Intelligence'], 
+    description: 'A recomendation platform designed to optimize investment strategies based on models and input data for data analyst. Enhanced predictive power through feature engineering and hyperparameter tuning. Achieved high accuracy in forecasts with cross-validation. Visualized predictions and trends using matplotlib and seaborn. Documented the workflow for reproducibility and transparency.', 
+    link: 'https://github.com/Once28/DeepRate'
   },
   { 
     id: 14, 
@@ -154,7 +154,7 @@ const projects: Project[] = [
     tags: ['Agentic AI', 'Machine Learning', 'Healthcare'], 
     description: 'CLARA (CLinical Audit & Regulation Assistant) 🩺💜 is an agentic platform to automate the regulatory cross-examination of clinical trial protocols, ensuring alignment with federal regulations and global ethical standards. Beyond the acronym, the name - “Clara” - comes from the Latin clarus, meaning clear or bright. This reinforces what we stand for: clarity in complex decisions, trust in high-stakes clinical environments, and a human presence within AI that feels supportive rather than technical. In healthcare, intelligence must be clear, reliable, and approachable — and CLARA embodies all three.', 
     link: 'https://www.kaggle.com/competitions/med-gemma-impact-challenge/writeups/new-writeup-1771403728540'
-  }
+  },
 ];
 
 
