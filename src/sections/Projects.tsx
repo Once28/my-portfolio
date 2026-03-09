@@ -140,12 +140,20 @@ const projects: Project[] = [
     link: 'https://github.com/Once28/CNN-classifier-for-Street-View-House-Numbers-SVHN'
   },
   { 
-    id: 1, 
+    id: 17, 
     title: 'Detecting Financial Fraud via NLP in Transactions and Loan Applications', 
     image: '/detecting-financial-fraud-using-nlp.png', 
     tags: ['NLP', 'Machine Learning', 'Business Intelligence'], 
     description: 'We explored several NLP methods to capture different dimensions of fraudulent messages. Our models include a TF-IDF + Logistic Regression for fraud and fraud-type classification, a BERT-embedding + XGBoost pipeline for deeper contextual modeling, DistilBERT sentiment features with a Random Forest to analyze emotional tone, and Named Entity Recognition to extract key semantic cues. Since the dataset was highly imbalanced, we also applied SMOTE on the training set to address class imbalance and improve minority-class learning. Together, these approaches provide complementary insights that power our dashboard’s fraud-pattern analytics.', 
     link: 'https://github.com/pranavbidve/Detecting-Financial-Fraud-via-NLP-in-Transactions-and-Loan-Applications'
+  },
+  { 
+    id: 18, 
+    title: 'CLinical Audit & Regulatory Assistant 🩺💜', 
+    image: '/clara.png', 
+    tags: ['Agentic AI', 'Machine Learning', 'Healthcare'], 
+    description: 'CLARA (CLinical Audit & Regulation Assistant) 🩺💜 is an agentic platform to automate the regulatory cross-examination of clinical trial protocols, ensuring alignment with federal regulations and global ethical standards. Beyond the acronym, the name - “Clara” - comes from the Latin clarus, meaning clear or bright. This reinforces what we stand for: clarity in complex decisions, trust in high-stakes clinical environments, and a human presence within AI that feels supportive rather than technical. In healthcare, intelligence must be clear, reliable, and approachable — and CLARA embodies all three.', 
+    link: 'https://www.kaggle.com/competitions/med-gemma-impact-challenge/writeups/new-writeup-1771403728540'
   }
 ];
 
